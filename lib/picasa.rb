@@ -60,7 +60,7 @@ EOF
     req.add_field("Authorization", "AuthSub token=\"#{token[:access_token]}\"")
     req.content_type = 'application/atom+xml'
     req.body = add_comment_xml
-    res = Net::HTTP.new(url.hostname, url.port)
+    res = Net::HTTP.new(url.host, url.port)
     responce = res.request(req)
     doc = Nokogiri::XML(responce.body).remove_namespaces!
     {
