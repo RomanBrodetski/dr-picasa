@@ -28,4 +28,7 @@ DrPicasa::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  config.client_id = '474082657976.apps.googleusercontent.com'
+  config.client_secret = 'QjpEHWIQ5Oasa9AJYnIHh5Kx'
 end

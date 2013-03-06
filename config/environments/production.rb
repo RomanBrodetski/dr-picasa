@@ -61,4 +61,6 @@ DrPicasa::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 
+  config.client_id = '461797459518-7hajp4b2f5lkltalg11udrhu0df90li0.apps.googleusercontent.com'
+  config.client_secret = 'pEzPVTB_ugalAX7TQj3osI9Z'
 end
