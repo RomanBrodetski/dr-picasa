@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<entry xmlns='http://www.w3.org/2005/Atom' xmlns:gphoto='http://schemas.google.com/photos/2007'>
+  <id>http://picasaweb.google.com/data/entry/api/user/110767798855866280023/albumid/5849607630826400993/photoid/5849607635759622146/commentid/0</id>
+  <published>2013-03-04T08:14:47.525Z</published>
+  <updated>2013-03-04T08:14:47.525Z</updated>
+  <category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#comment'/>
+  <title type='text'>Роман Бродецкий</title>
+  <content type='text'>22</content>
+  <link rel='alternate' type='text/html' href='https://picasaweb.google.com/lh/photo/Iu47AohX2aMTKuqXT_PQ09MTjNZETYmyPJy0liipFm0'/>
+  <link rel='self' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/110767798855866280023/albumid/5849607630826400993/photoid/5849607635759622146/commentid/0'/>
+  <link rel='edit' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/110767798855866280023/albumid/5849607630826400993/photoid/5849607635759622146/commentid/0'/>
+  <author>
+    <name>Роман Бродецкий</name>
+    <uri>https://picasaweb.google.com/110767798855866280023</uri>
+    <gphoto:nickname>Роман Бродецкий</gphoto:nickname>
+    <gphoto:thumbnail>http://lh5.ggpht.com/-VewxhcTw554/AAAAAAAAAAI/AAAAAAAAAAA/F0fRJNQqkNk/s48-c/110767798855866280023.jpg</gphoto:thumbnail>
+    <gphoto:user>110767798855866280023</gphoto:user>
+  </author>
+  <gphoto:id>0</gphoto:id>
+  <gphoto:photoid>5849607635759622146</gphoto:photoid>
+</entry>

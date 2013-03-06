@@ -1,0 +1,13 @@
+%i
+  = link_to '←', '/'
+%h2
+  = @album[:title]
+%ul.inline{:'data-id' => @album[:id]}
+  - @album[:photos].each do |photo|
+    %li
+      = link_to '#', :class => 'thumbnail photo-thumbnail', :'data-target' => '#modal', :'data-id' => photo[:id]  do
+        = image_tag photo[:thumbnail]
+        .caption
+          %h5
+            = photo[:title]
+.modal.hide.fade#modal

@@ -1,0 +1,16 @@
+%ul.inline
+  - @albums.each do |album|
+    %li
+      = link_to album_path(album[:id]), :class => 'thumbnail' do
+        = image_tag album[:thumbnail]#, :class => "img-polaroid"
+        .caption
+          %h5
+            = album[:title]
+/ %ul.thumbnails
+/ - @albums.each do |album|
+/   %li.span2
+/     = link_to album_path(album[:id]), :class => 'thumbnail' do
+/       = image_tag album[:thumbnail]#, :class => "img-polaroid"
+/       .caption
+/         %h5
+/           = album[:title]

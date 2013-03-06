@@ -1,0 +1,20 @@
+.modal-header
+  %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
+  %h3
+    = @photo[:title]
+.modal-body
+  .row-fluid
+    .span7
+      =image_tag @photo[:url], :class => 'photo'
+    .span5
+      #comments
+        - @photo[:comments].each do |comment|
+          = render :partial => 'comment', :locals => {:comment => comment}
+      .well
+        = form_for :comment, :remote => true, :html => {:id => 'comment'} do |f|
+          = f.hidden_field :photo_id, :value => @photo[:id]
+          = f.hidden_field :album_id, :value => @photo[:album_id]
+          = f.text_area :text, :placeholder => "Type in your message", :rows => 5, :required => true, :maxlength => 320
+          .row-fluid
+            %button.btn.btn-info{:type => "submit"} Post New Message
+.modal-footer

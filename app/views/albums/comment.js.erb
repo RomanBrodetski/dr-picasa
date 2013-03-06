@@ -1,0 +1,5 @@
+ <%-text = render :partial => 'comment', :locals => {:comment => @comment}%>
+$('#comments').append($("<%=j text%>"))
+$('form#comment button').removeClass('disabled')
+$('form#comment button').attr('disabled', false)
+$('form#comment textarea').val('')
