@@ -66,5 +66,8 @@ module DrPicasa
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.client_id = '461797459518-7hajp4b2f5lkltalg11udrhu0df90li0.apps.googleusercontent.com'
+    config.client_secret = 'pEzPVTB_ugalAX7TQj3osI9Z'
   end
 end
